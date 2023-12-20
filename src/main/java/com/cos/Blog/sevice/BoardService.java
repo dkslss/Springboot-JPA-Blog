@@ -30,6 +30,7 @@ public class BoardService {
 		return boardRepository.findAll(pageable);
 	}
 
+	
 
 	public Board detailsAritcle(int id) {
 		return boardRepository.findById(id)
